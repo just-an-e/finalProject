@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
         <activity
+            android:name=".addRefuelActivity"
+            android:exported="true" />
+        <activity
+            android:name=".addTripActivity"
+            android:exported="true" />
+        <activity
             android:name=".settingsActivity"
             android:exported="false" />
         <activity

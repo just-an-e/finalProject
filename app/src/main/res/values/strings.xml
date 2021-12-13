@@ -3,4 +3,9 @@
     <string name="settingsText">Settings</string>
     <string name="addTripButtonText">Add Trip</string>
     <string name="addRefuelButtonText">Add Refuel</string>
+    <string name="milesTraveledText">Miles Traveled:</string>
+    <string name="gasConsumedText">Gas Consumed:</string>
+    <string name="gasBoughtText">Gas Bought:</string>
+    <string name="moneySpentText">Money Spent:</string>
+    <string name="submitButtonText">Submit</string>
 </resources>

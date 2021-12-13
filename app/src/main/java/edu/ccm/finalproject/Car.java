@@ -3,7 +3,7 @@ package edu.ccm.finalproject;
 public class Car {
 
     private int totalMilesDriven = 0, totalGasConsumed = 0, totalMoneySpent = 0, totalGasBought = 0, lastMilesDriven = 0, lastGasConsumed = 0, lastMoneySpent= 0, lastGasBought = 0;
-    private int mileage;
+    private int mileage = 1;
     private String carName;
 
     public Car(String theCarName){
