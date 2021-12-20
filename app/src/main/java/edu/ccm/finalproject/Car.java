@@ -10,8 +10,24 @@ public class Car {
         carName = theCarName;
     }
 
+    public Car(String theCarName, int cTotalMilesDriven, int cTotalGasConsumed, int cTotalMoneySpent, int cTotalGasBought, int cLastMilesDriven, int cLastGasConsumed, int cLastMoneySpent, int cLastGasBought){
+        carName = theCarName;
+        totalMilesDriven = cTotalMilesDriven;
+        totalMoneySpent = cTotalMoneySpent;
+        totalGasBought = cTotalGasBought;
+        totalGasConsumed = cTotalGasConsumed;
+        lastMilesDriven = cLastMilesDriven;
+        lastGasConsumed = cLastGasConsumed;
+        lastMoneySpent = cLastMoneySpent;
+        lastGasBought = cLastGasBought;
+    }
+
     public void setMileage(int newMileage){
         mileage = newMileage;
+    }
+
+    public void setCarName(String pCarName){
+        carName = pCarName;
     }
 
     public void addTrip(int milesDriven, int gasConsumed){

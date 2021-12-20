@@ -8,4 +8,12 @@
     <string name="gasBoughtText">Gas Bought:</string>
     <string name="moneySpentText">Money Spent:</string>
     <string name="submitButtonText">Submit</string>
+    <string name="applyButtonText">Apply</string>
+    <string name="placeholderText">placeholder</string>
+    <string name="githubPage">https://github.com/just-an-e</string>
+    <string-array name="cars_array">
+        <item>Honda Civic</item>
+        <item>Honda Accord</item>
+        <item>Honda Odyssey</item>
+    </string-array>
 </resources>
