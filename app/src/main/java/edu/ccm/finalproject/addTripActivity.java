@@ -22,11 +22,13 @@ public class addTripActivity extends AppCompatActivity {
         setContentView(R.layout.activity_add_trip);
     }
 
+    //sends the user back without changing anything
     public void backButtonClick(View view){
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
     }
 
+    //saves everything and adds the trip
     public void submitButtonClick(View view){
         Intent intent = new Intent(this, MainActivity.class);
 

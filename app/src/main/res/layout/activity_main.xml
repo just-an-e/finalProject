@@ -70,6 +70,24 @@
                 android:layout_height="wrap_content"
                 android:text="@string/placeholderText" />
 
+            <TextView
+                android:id="@+id/totalMileageDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
+            <TextView
+                android:id="@+id/totalMilesPerDollarDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
+            <TextView
+                android:id="@+id/totalMileRatioDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
         </LinearLayout>
     </ScrollView>
 
@@ -107,6 +125,24 @@
 
             <TextView
                 android:id="@+id/lastMoneySpentDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
+            <TextView
+                android:id="@+id/lastMileageDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
+            <TextView
+                android:id="@+id/lastMilesPerDollarDisplayText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholderText" />
+
+            <TextView
+                android:id="@+id/lastMileRatioDisplayText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/placeholderText" />
